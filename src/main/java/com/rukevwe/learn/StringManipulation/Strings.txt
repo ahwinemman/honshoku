@@ -1,0 +1,15 @@
+ Summary from: https://www.journaldev.com/538/string-vs-stringbuffer-vs-stringbuilder
+ StringBuilder: mutable and not tread safe ;
+ StringBuffer: mutable but thread safe;
+ So the builder performs better (faster) than the Stringbuffer
+ 
+ HashMap is not a thread-safe implementation unlike the Hashtable who is not so efficient.
+    StringJoiner;
+    
+    The final Keyword
+    Variable - to create constant variables
+    Methods - to prevent method overriding
+    Class - to prevent inheritance
+    
+    
+    Hashing algorithms: MD5, SHA256, SHA512, PBKDF2
