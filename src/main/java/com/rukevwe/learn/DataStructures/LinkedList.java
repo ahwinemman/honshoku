@@ -1,8 +1,8 @@
 package com.rukevwe.learn.DataStructures;
 
-public class LinkedListNode {
+ class LinkedListNode {
 
-    LinkedListNode next;
+   LinkedListNode next;
    int data;
    public LinkedListNode(int data){
        this.data = data;
@@ -11,7 +11,7 @@ public class LinkedListNode {
   
 }
 
-class LinkedList {
+public class LinkedList {
     LinkedListNode head;
 
     public void append(int data) {
