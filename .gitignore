@@ -1,1 +1,17 @@
+/target/
+*.log
+/webapp
+
+### IntelliJ IDEA ###
 /.idea/
+*.iws
+*.iml
+
+### Eclipse ###
+/.classpath
+
+
+### NetBeans ###
+/nbbuild
+
+
