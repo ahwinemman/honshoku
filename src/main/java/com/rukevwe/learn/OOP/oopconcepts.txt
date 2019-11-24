@@ -1,0 +1,12 @@
+Summary from https://www.journaldev.com/12496/oops-concepts-java-example
+
+1. Abstraction: Abstraction is the concept of hiding the internal details and describing things in simple terms.
+2. Encapsulation: Encapsulation is the technique used to implement abstraction in object-oriented programming. 
+3. Polymorphism: Polymorphism is the concept where an object behaves differently in different situations. 
+   There are two types of polymorphism – compile time polymorphism and runtime polymorphism.
+   Compile time polymorphism is achieved by method overloading, 
+   Runtime polymorphism has to do with the relationship between subclasses and their superclass.
+4. Inheritance: A mechanism for code reuse.
+   "Is-a" relationship.
+5. Composition: Composition is the design technique in object-oriented programming to implement has-a relationship between objects. 
+   "has-a relationship"

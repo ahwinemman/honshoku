@@ -1,0 +1,16 @@
+Summary from https://www.quora.com/What-is-the-difference-between-++x-and-x++-in-C-programming
+
+Both ++x and x++ are used to increment variable x by 1.. the prime difference is that,
+
+++x i.e. pre-increment operator uses the principle ‘change-then-use’ while, x++ i.e. post-increment operator uses the principle ‘use-then-change’.
+
+for example, the following code;
+
+int a=10,b=15;
+int product = a * b++;
+System.out.println(product)
+This will produce an output 150. Obviously, b is first used then changed.
+
+int a=10,b=15;
+int product = a * ++b;
+cout<<product;
